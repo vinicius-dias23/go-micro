@@ -1,6 +1,6 @@
 # go-micro
-Um software de comicação entre micro serviços usando golang que possui:
-  - Serviço de front-end para mostrar a parte interativa do site e conectar com outros 5 micro serviços;
+Um software de comunicação entre microsserviços usando golang que possui:
+  - Serviço de front-end para mostrar a parte interativa do site e conectar com outros 5 microsserviços;
   - Serviço de autenticação com um banco de dados Postgres;
   - Serviço de Logs com um banco de dados MongoDB;
   - Serviço que escutará mensagens vindas do RabbitMQ e fará ações com elas;
