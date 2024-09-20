@@ -5,7 +5,8 @@ Um software de comunicação entre microsserviços usando golang que possui:
   - Serviço de Logs com um banco de dados MongoDB;
   - Serviço que escutará mensagens vindas do RabbitMQ e fará ações com elas;
   - Serviço "Broker" a conexão entre o Producer e o Consumer;
-  - Serviço de email que recebe uma mensagem JSON, formata ela para a estrutura apropiada e envia.
+  - Serviço de email que recebe uma mensagem JSON, formata ela para a estrutura apropiada e envia;
+  - Mecanismo de deploy dos microsserviços usando Docker Swarm.
 
 # Lembretes
  - Para toda vez que o repositório for clonado do zero, remover os dados dentro das pastas no diretório project/db-data.
